@@ -1,0 +1,15 @@
+１．画面
+　　リスト、詳細、書き込み
+２．フレームワーク
+　　Fontend：javascript(ES6)、vue3.0、HTML5、bootstrap
+　　Backend：JAVA、Spring Boot、Mybatis
+　　Database：Mariadb 10.6
+　　Server：Tomcat
+　　Tool：Eclipse、DBeaver
+３．リストデータ取得、登録（修正）処理、削除処理はajax(axio)を利用
+４．テーブルは一つでハイアラーキー構造
+
+
+
+4/17 스프링 부트 - 그레이들  : rest 통신 확인완료
+

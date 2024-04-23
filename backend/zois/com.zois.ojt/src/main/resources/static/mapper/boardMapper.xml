@@ -1,0 +1,15 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.zois.ojt.dao.BoardDao">
+
+	<insert id="boardInsert">
+	insert into board_table values(null,#{b_title},#{b_contents},#{userId},#{a_title},#{a_contents},now());
+	</insert>
+	
+	<select id="boardInfo">
+	select * from board_table order by b_Cnt desc limit 0,10;
+	</select>
+	
+	
+</mapper>
